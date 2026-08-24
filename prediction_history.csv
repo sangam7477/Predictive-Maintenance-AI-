@@ -1,0 +1,4 @@
+Date & Time,Air Temperature,Process Temperature,Rotational Speed,Torque,Tool Wear,Prediction,Risk Level,Failure Probability (%),Health Score (%)
+2026-08-24 17:28:54,298.1,308.6,1551.0,42.8,0.0,Machine Healthy,Low Risk,0.0,100.0
+2026-08-24 17:47:55,298.1,308.8,1551.0,42.8,0.0,Machine Healthy,Low Risk,0.0,100.0
+2026-08-24 17:57:48,298.1,308.8,1551.0,42.8,0.0,Machine Healthy,Low Risk,0.0,100.0

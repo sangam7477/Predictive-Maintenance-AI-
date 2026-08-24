@@ -1,37 +1,50 @@
-Predictive Maintenance System using AI
-📌 Project Overview
+# 🔧 Predictive Maintenance System using AI
 
-This project is an AI-based Predictive Maintenance System that predicts machine failures using Machine Learning.
+## 📌 Project Overview
 
-The system analyzes machine parameters such as:
+This project is an **AI-based Predictive Maintenance System** that predicts machine failures using **Machine Learning**.
 
-Air Temperature
-Process Temperature
-Rotational Speed
-Torque
-Tool Wear
+The system analyzes important machine parameters such as:
+
+* Air Temperature
+* Process Temperature
+* Rotational Speed
+* Torque
+* Tool Wear
 
 Based on these parameters, the system predicts whether a machine is likely to fail.
 
-🚀 Features
-🤖 Machine Failure Prediction
-📊 Data Analysis
-📈 Feature Importance Visualization
-🔍 Confusion Matrix
-🧠 Machine Learning Model Training
-🌐 Flask Web Application
-💻 User-Friendly Interface
-🛠️ Technologies Used
-Python
-Machine Learning
-Scikit-learn
-Pandas
-NumPy
-Matplotlib
-Seaborn
-Flask
-Joblib
-📂 Project Structure
+---
+
+## 🚀 Features
+
+* 🤖 Machine Failure Prediction
+* 📊 Data Analysis
+* 📈 Feature Importance Visualization
+* 🔍 Confusion Matrix
+* 🧠 Machine Learning Model Training
+* 🌐 Flask Web Application
+* 💻 User-Friendly Interface
+
+---
+
+## 🛠️ Technologies Used
+
+* Python
+* Machine Learning
+* Scikit-learn
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
+* Flask
+* Joblib
+
+---
+
+## 📂 Project Structure
+
+```text
 Predictive-Maintenance-AI/
 │
 ├── dataset/
@@ -52,72 +65,111 @@ Predictive-Maintenance-AI/
 ├── requirements.txt
 ├── .gitignore
 └── README.md
-📊 Input Features
+```
+
+---
+
+## 📊 Input Features
 
 The Machine Learning model uses the following features:
 
-Air Temperature [K]
-Process Temperature [K]
-Rotational Speed [rpm]
-Torque [Nm]
-Tool Wear [min]
-🤖 Prediction
+1. Air Temperature **[K]**
+2. Process Temperature **[K]**
+3. Rotational Speed **[rpm]**
+4. Torque **[Nm]**
+5. Tool Wear **[min]**
+
+---
+
+## 🤖 Prediction
 
 The model predicts:
 
-0 → No Machine Failure
-1 → Machine Failure
-⚙️ Installation
+* **0 → No Machine Failure**
+* **1 → Machine Failure**
 
-Clone the repository:
+---
 
+## ⚙️ Installation
+
+### Clone the Repository
+
+```bash
 git clone https://github.com/sangam7477/Predictive-Maintenance-AI-.git
+```
 
-Go to the project folder:
+### Go to the Project Folder
 
+```bash
 cd Predictive-Maintenance-AI-
+```
 
-Create a virtual environment:
+### Create a Virtual Environment
 
+```bash
 python -m venv .venv
+```
 
-Activate the virtual environment on Windows:
+### Activate the Virtual Environment
 
+**Windows:**
+
+```bash
 .venv\Scripts\activate
+```
 
-Install the required libraries:
+### Install Required Libraries
 
+```bash
 pip install -r requirements.txt
-▶️ Run the Project
+```
 
-First, train the Machine Learning model:
+---
 
+## ▶️ Run the Project
+
+### Train the Machine Learning Model
+
+```bash
 python train_model.py
+```
 
-Then start the Flask application:
+### Start the Flask Application
 
+```bash
 python app.py
+```
 
 Open your browser and visit:
 
+```text
 http://127.0.0.1:5000
-📈 Model Performance
+```
+
+---
+
+## 📈 Model Performance
 
 The model achieved approximately:
 
-Accuracy: 98.3%
+* **Accuracy: 98.3%**
 
 The project also provides:
 
-Confusion Matrix
-Feature Importance Analysis
-Machine Failure Prediction
-👨‍💻 Author
+* Confusion Matrix
+* Feature Importance Analysis
+* Machine Failure Prediction
 
-Sangam Saini
+---
+
+## 👨‍💻 Author
+
+**Sangam Saini**
 
 BCA — AI/ML Specialization
 
-⭐ Support
+---
 
-If you like this project, please give it a ⭐ on GitHub!
+## ⭐ Support
+
+If you like this project, please give it a **⭐ Star** on GitHub!
